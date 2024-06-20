@@ -9,4 +9,8 @@
   <project path="vendor/xiaomi/sagit" name="proprietary_vendor_xiaomi_sagit" remote="sagit-id" revision="lineage-21" />
   <project path="vendor/xiaomi/msm8998-common" name="proprietary_vendor_xiaomi_msm8998-common" remote="sagit-id" revision="lineage-21" />
   <project path="kernel/xiaomi/msm8998" name="android_kernel_xiaomi_msm8998" remote="sagit-id" revision="lineage-21" />
+  <remove-project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="alpha" />
+  <remove-project path="frameworks/native" name="crdroidandroid/android_frameworks_native" groups="pdk" remote="crdroid" />
+  <project path="frameworks/base" name="frameworks_base" remote="sagit-id" revision="alpha-14" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="sagit-id" revision="14.0" />
 </manifest>
