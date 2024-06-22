@@ -2,6 +2,7 @@
 <manifest>
         <!-- Remote -->
         <remote name="sagit-id" fetch="https://github.com/Sagit-A14" clone-depth="1" />
+        <remote name="deny2311" fetch="https://github.com/deny2311" clone-depth="1" />
 
         <!-- Trees -->
   <project path="device/xiaomi/sagit" name="android_device_xiaomi_sagit" remote="sagit-id" revision="alpha14" />
@@ -10,7 +11,9 @@
   <project path="vendor/xiaomi/msm8998-common" name="proprietary_vendor_xiaomi_msm8998-common" remote="sagit-id" revision="lineage-21" />
   <project path="kernel/xiaomi/msm8998" name="android_kernel_xiaomi_msm8998" remote="sagit-id" revision="lineage-21" />
   <remove-project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="alpha" />
+  <remove-project path="vendor/lineage" name="vendor_lineage" remote="alpha" />
   <remove-project path="frameworks/native" name="crdroidandroid/android_frameworks_native" groups="pdk" remote="crdroid" />
   <project path="frameworks/base" name="frameworks_base" remote="sagit-id" revision="alpha-14" />
   <project path="frameworks/native" name="android_frameworks_native" remote="sagit-id" revision="14.0" />
+  <project path="vendor/lineage" name="vendor_lineage" remote="deny2311" />
 </manifest>
