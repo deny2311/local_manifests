@@ -10,12 +10,14 @@
   <project path="vendor/xiaomi/sagit" name="proprietary_vendor_xiaomi_sagit" remote="sagit-id" revision="lineage-21" />
   <project path="vendor/xiaomi/msm8998-common" name="proprietary_vendor_xiaomi_msm8998-common" remote="sagit-id" revision="lineage-21" />
   <project path="kernel/xiaomi/msm8998" name="android_kernel_xiaomi_msm8998" remote="sagit-id" revision="lineage-21" />
-<!-- <remove-project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="alpha" /> -->
+  <remove-project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="alpha" />
   <remove-project path="vendor/lineage" name="vendor_lineage" remote="alpha" />
-<!--  <remove-project path="frameworks/native" name="frameworks_native" groups="pdk" remote="alpha" /> -->
+  <remove-project path="frameworks/native" name="frameworks_native" groups="pdk" remote="alpha" />
   <remove-project path="hardware/interfaces" name="hardware_interfaces" groups="pdk,sysui-studio" remote="alpha" />
-<!--  <project path="frameworks/base" name="frameworks_base" remote="sagit-id" revision="alpha-14" />
-  <project path="frameworks/native" name="frameworks_native_alpha14" remote="sagit-id" revision="alpha-14" /> -->
+  <remove-project path="toolchain/pgo-profiles" name="crdroidandroid/android_toolchain_pgo-profiles" groups="pdk" remote="crdroid" />
+  <project path="frameworks/base" name="frameworks_base" remote="sagit-id" revision="alpha-14" />
+  <project path="frameworks/native" name="frameworks_native_alpha14" remote="sagit-id" revision="alpha-14" />
   <project path="vendor/lineage" name="vendor_lineage" remote="deny2311" revision="alpha-14"/>
   <project path="hardware/interfaces" name="hardware_interfaces" remote="sagit-id" revision="alpha-14" />
+  <project path="toolchain/pgo-profiles" name="android_toolchain_pgo-profiles" remote="sagit-id" revision="14.0" />
 </manifest>
