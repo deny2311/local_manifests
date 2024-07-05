@@ -14,10 +14,8 @@
   <remove-project path="vendor/lineage" name="vendor_lineage" remote="alpha" />
   <remove-project path="frameworks/native" name="frameworks_native" groups="pdk" remote="alpha" />
   <remove-project path="hardware/interfaces" name="hardware_interfaces" groups="pdk,sysui-studio" remote="alpha" />
-  <remove-project path="toolchain/pgo-profiles" name="crdroidandroid/android_toolchain_pgo-profiles" groups="pdk" remote="crdroid" />
   <project path="frameworks/base" name="frameworks_base" remote="sagit-id" revision="alpha-14" />
-  <project path="frameworks/native" name="frameworks_native_alpha14" remote="sagit-id" revision="alpha-14" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="sagit-id" revision="14.0" />
   <project path="vendor/lineage" name="vendor_lineage" remote="deny2311" revision="alpha-14"/>
   <project path="hardware/interfaces" name="hardware_interfaces" remote="sagit-id" revision="alpha-14" />
-  <project path="toolchain/pgo-profiles" name="android_toolchain_pgo-profiles" remote="sagit-id" revision="14.0" />
 </manifest>
