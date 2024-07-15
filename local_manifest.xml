@@ -14,8 +14,10 @@
   <remove-project path="vendor/lineage" name="vendor_lineage" remote="alpha" />
   <remove-project path="frameworks/native" name="frameworks_native" groups="pdk" remote="alpha" />
   <remove-project path="hardware/interfaces" name="hardware_interfaces" groups="pdk,sysui-studio" remote="alpha" />
+  <remove-project path="hardware/xiaomi" name="hardware_xiaomi" remote="alpha" />
   <project path="frameworks/base" name="frameworks_base" remote="sagit-id" revision="alpha-14" />
   <project path="frameworks/native" name="frameworks_native_alpha14" remote="sagit-id" revision="alpha-14" />
   <project path="vendor/lineage" name="vendor_lineage" remote="deny2311" revision="alpha-14"/>
   <project path="hardware/interfaces" name="hardware_interfaces" remote="sagit-id" revision="alpha-14" />
+  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="sagit-id" revision="lineage-21" />
 </manifest>
