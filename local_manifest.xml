@@ -12,5 +12,6 @@
   <project path="vendor/sagit/keys" name="vendor_sagit_keys" remote="sagit-id" revision="main" />
   <remove-project path="frameworks/native" name="android_frameworks_native" groups="pdk-cw-fs,pdk-fs" remote="rising" />
   <project path="frameworks/native" name="android_frameworks_native_rising14" remote="sagit-id" revision="fourteen" />
+  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="sagit-id" revision="lineage-21" />
   
 </manifest>
