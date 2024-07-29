@@ -26,6 +26,8 @@
   <remove-project path="prebuilts/clang/host/linux-x86/clang-latest" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r522817" remote="crdroid-gitlab" />
   <project path="prebuilts/clang/host/linux-x86/clang-latest" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r498229b" remote="crdroid-gitlab" />
   <project path="prebuilts/clang/host/linux-x86/clang-r498229b" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r498229b" remote="crdroid-gitlab" />
-  <project path="prebuilts/clang/host/linux-x86/clang-r510928" name="clang-r510928" remote="dogpoopy" />
+  <project path="prebuilts/clang/host/linux-x86/clang-r510928" name="dogpoopy/clang-r510928" remote="dogpoopy" />
+  <remove-project path="toolchain/pgo-profiles" name="crdroidandroid/android_toolchain_pgo-profiles" groups="pdk" remote="crdroid" />
+  <project path="toolchain/pgo-profiles" name="android_toolchain_pgo-profiles" remote="sagit-id" revision="14.0" />
   
 </manifest>
