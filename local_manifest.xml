@@ -7,6 +7,11 @@
            sync-c="true"
            sync-j="4"
            revision="refs/heads/14.0" />
+         <remote  name="dogpoopy"
+           fetch="https://gitlab.com/"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/main" />
 
         <!-- Trees -->
   <project path="device/xiaomi/sagit" name="android_device_xiaomi_sagit" remote="sagit-id" revision="rising14-gapps" />
@@ -21,5 +26,6 @@
   <remove-project path="prebuilts/clang/host/linux-x86/clang-latest" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r522817" remote="crdroid-gitlab" />
   <project path="prebuilts/clang/host/linux-x86/clang-latest" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r498229b" remote="crdroid-gitlab" />
   <project path="prebuilts/clang/host/linux-x86/clang-r498229b" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r498229b" remote="crdroid-gitlab" />
+  <project path="prebuilts/clang/host/linux-x86/clang-r510928" name="clang-r510928" remote="dogpoopy" />
   
 </manifest>
