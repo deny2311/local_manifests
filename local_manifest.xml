@@ -2,16 +2,8 @@
 <manifest>
         <!-- Remote -->
         <remote name="sagit-id" fetch="https://github.com/Sagit-A14" clone-depth="1" />
-        <remote  name="crdroid-gitlab"
-           fetch="https://gitlab.com/"
-           sync-c="true"
-           sync-j="4"
-           revision="refs/heads/14.0" />
-         <remote  name="dogpoopy"
-           fetch="https://gitlab.com/"
-           sync-c="true"
-           sync-j="4"
-           revision="refs/heads/main" />
+        <remote name="clang" fetch="https://github.com/psionicprjkt" clone-depth="1" />
+        <remote name="crdroid" fetch="https://github.com/crdroidandroid" clone-depth="1" />
 
         <!-- Trees -->
   <project path="device/xiaomi/sagit" name="android_device_xiaomi_sagit" remote="sagit-id" revision="rising14-gapps" />
@@ -20,6 +12,7 @@
   <project path="vendor/xiaomi/msm8998-common" name="proprietary_vendor_xiaomi_msm8998-common" remote="sagit-id" revision="alpha14" />
   <project path="kernel/xiaomi/msm8998" name="android_kernel_xiaomi_msm8998" remote="sagit-id" revision="lineage-21" />
   <project path="vendor/sagit/keys" name="vendor_sagit_keys" remote="sagit-id" revision="main" />
-  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="sagit-id" revision="lineage-21" />
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="crdroid" revision="14.0" />
+  <project path="prebuilts/clang/host/linux-x86/clang-r522817" name="android_prebuilts_clang_host_linux-x86_clang-r522817" remote="clang" revision="main" />
   
 </manifest>
