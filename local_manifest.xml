@@ -20,14 +20,7 @@
   <project path="vendor/xiaomi/msm8998-common" name="proprietary_vendor_xiaomi_msm8998-common" remote="sagit-id" revision="alpha14" />
   <project path="kernel/xiaomi/msm8998" name="android_kernel_xiaomi_msm8998" remote="sagit-id" revision="lineage-21" />
   <project path="vendor/sagit/keys" name="vendor_sagit_keys" remote="sagit-id" revision="main" />
-  <remove-project path="frameworks/native" name="android_frameworks_native" groups="pdk-cw-fs,pdk-fs" remote="rising" />
   <project path="frameworks/native" name="android_frameworks_native_rising14" remote="sagit-id" revision="fourteen" />
   <project path="hardware/xiaomi" name="hardware_xiaomi" remote="sagit-id" revision="lineage-21" />
-  <remove-project path="prebuilts/clang/host/linux-x86/clang-latest" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r522817" remote="crdroid-gitlab" />
-  <project path="prebuilts/clang/host/linux-x86/clang-latest" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r498229b" remote="crdroid-gitlab" />
-  <project path="prebuilts/clang/host/linux-x86/clang-r498229b" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r498229b" remote="crdroid-gitlab" />
-  <project path="prebuilts/clang/host/linux-x86/clang-r510928" name="dogpoopy/clang-r510928" remote="dogpoopy" />
-  <remove-project path="toolchain/pgo-profiles" name="crdroidandroid/android_toolchain_pgo-profiles" groups="pdk" remote="crdroid" />
-  <project path="toolchain/pgo-profiles" name="android_toolchain_pgo-profiles" remote="sagit-id" revision="14.0" />
   
 </manifest>
