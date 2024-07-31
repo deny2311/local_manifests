@@ -18,5 +18,5 @@
   <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="sagit-id" revision="14" />
   <project path="vendor/sagit/keys" name="vendor_sagit_keys" remote="sagit-id" revision="main" />
   <project path="hardware/xiaomi" name="hardware_xiaomi" remote="sagit-id" revision="lineage-21" />
-  <project path="prebuilts/clang/host/linux-x86/clang-latest" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r498229b" remote="crdroid-gitlab" />
+  <project path="prebuilts/clang/host/linux-x86/clang-latest" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r530567" remote="crdroid-gitlab" />
 </manifest>
