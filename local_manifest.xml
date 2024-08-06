@@ -2,11 +2,11 @@
 <manifest>
         <!-- Remote -->
         <remote name="sagit-id" fetch="https://github.com/Sagit-A14" clone-depth="1" />
-        <remote name="crdroid"
+  <!--      <remote name="crdroid"
            fetch="https://github.com/"
            sync-c="true"
            sync-j="4"
-           revision="refs/heads/14.0" />
+           revision="refs/heads/14.0" /> -->
 
         <!-- Trees -->
   <project path="device/xiaomi/sagit" name="android_device_xiaomi_sagit" remote="sagit-id" revision="alpha14-gapps" />
