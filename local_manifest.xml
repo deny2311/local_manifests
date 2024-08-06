@@ -2,11 +2,6 @@
 <manifest>
         <!-- Remote -->
         <remote name="sagit-id" fetch="https://github.com/Sagit-A14" clone-depth="1" />
-  <!--      <remote name="crdroid"
-           fetch="https://github.com/"
-           sync-c="true"
-           sync-j="4"
-           revision="refs/heads/14.0" /> -->
 
         <!-- Trees -->
   <project path="device/xiaomi/sagit" name="android_device_xiaomi_sagit" remote="sagit-id" revision="alpha14-gapps" />
@@ -16,12 +11,6 @@
   <project path="kernel/xiaomi/msm8998" name="android_kernel_xiaomi_msm8998" remote="sagit-id" revision="lineage-21" />
   <project path="vendor/sagit/keys" name="vendor_sagit_keys" remote="sagit-id" revision="main" />
   <remove-project path="frameworks/native" name="frameworks_native" groups="pdk" remote="alpha" />
-  <!--<remove-project path="bionic" name="bionic" groups="pdk" remote="alpha" /> -->
-  <!-- <remove-project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="alpha" />
-  <remove-project path="packages/apps/AlphaSettings" name="packages_apps_AlphaSettings" remote="alpha" /> -->
   <project path="frameworks/native" name="frameworks_native_alpha14" remote="sagit-id" revision="alpha-14" />
-  <!-- <project path="frameworks/base" name="frameworks_base" remote="sagit-id" revision="alpha-14" />
-  <project path="packages/apps/AlphaSettings" name="packages_apps_AlphaSettings" remote="sagit-id" revision="alpha-14" /> -->
-  <!--<project path="bionic" name="crdroidandroid/android_bionic" groups="pdk" remote="crdroid" />-->
 
 </manifest>
