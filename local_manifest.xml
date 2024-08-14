@@ -5,7 +5,7 @@
         <remote name="siomay" fetch="https://github.com/crdroidandroid" clone-depth="1" />
 
         <!-- Trees -->
-  <project path="device/xiaomi/sagit" name="android_device_xiaomi_sagit" remote="sagit-id" revision="rising14-gapps" />
+  <project path="device/xiaomi/sagit" name="android_device_xiaomi_sagit" remote="sagit-id" revision="rising14-vanilla" />
   <project path="device/xiaomi/msm8998-common" name="android_device_xiaomi_msm8998-common" remote="sagit-id" revision="rising14" />
   <project path="vendor/xiaomi/sagit" name="proprietary_vendor_xiaomi_sagit" remote="sagit-id" revision="lineage-21" />
   <project path="vendor/xiaomi/msm8998-common" name="proprietary_vendor_xiaomi_msm8998-common" remote="sagit-id" revision="alpha14" />
